@@ -10,13 +10,24 @@
         </SchumacherFM_Pace>
     </modules>
 
+    <global>
+        <models>
+            <magepace>
+                <class>SchumacherFM_Pace_Model</class>
+            </magepace>
+        </models>
+    </global>
     <adminhtml>
-        <layout>
-            <updates>
-                <magepace>
-                    <file>pace.xml</file>
-                </magepace>
-            </updates>
-        </layout>
+        <events>
+            <core_block_abstract_to_html_after>
+                <observers>
+                    <schumacherfm_pace>
+                        <class>magepace/observer</class>
+                        <method>injectPace</method>
+                    </schumacherfm_pace>
+                </observers>
+            </core_block_abstract_to_html_after>
+        </events>
     </adminhtml>
+
 </config>
