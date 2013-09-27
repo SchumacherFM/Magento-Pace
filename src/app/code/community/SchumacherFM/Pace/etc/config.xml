@@ -1,4 +1,4 @@
-Pace<?xml version="1.0"?>
+<?xml version="1.0"?>
 <!--* @category    SchumacherFM_Pace-->
 <!--* @package     etc-->
 <!--* @author      Cyrill at Schumacher dot fm / @SchumacherFM-->
@@ -10,36 +10,13 @@ Pace<?xml version="1.0"?>
         </SchumacherFM_Pace>
     </modules>
 
-    <global>
-        <models>
-            <pace>
-                <class>SchumacherFM_Pace_Model</class>
-            </pace>
-        </models>
-        <blocks>
-            <pace>
-                <class>SchumacherFM_Pace_Block</class>
-            </pace>
-        </blocks>
-    </global>
-
     <adminhtml>
         <layout>
             <updates>
-                <pace>
+                <magepace>
                     <file>pace.xml</file>
-                </pace>
+                </magepace>
             </updates>
         </layout>
-        <events>
-            <adminhtml_block_html_before>
-                <observers>
-                    <pace_adminhtml_block_html_before>
-                        <class>pace/observer_adminhtmlBlock</class>
-                        <method>alterTextareaBlockTemplate</method>
-                    </pace_adminhtml_block_html_before>
-                </observers>
-            </adminhtml_block_html_before>
-        </events>
     </adminhtml>
 </config>

@@ -1,5 +1,4 @@
 src/app/code/community/SchumacherFM/Pace app/code/community/SchumacherFM/Pace
 src/app/etc/modules/SchumacherFM_Pace.xml app/etc/modules/SchumacherFM_Pace.xml
 src/app/design/adminhtml/default/default/layout/pace.xml app/design/adminhtml/default/default/layout/pace.xml
-src/js/mage/adminhtml/pace.js js/mage/adminhtml/pace.js
-src/skin/adminhtml/default/default/pace.css skin/adminhtml/default/default/pace.css
+src/app/design/adminhtml/default/default/template/page/head_pace.phtml app/design/adminhtml/default/default/template/page/head_pace.phtml
