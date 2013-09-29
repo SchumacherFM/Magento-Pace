@@ -1,9 +1,10 @@
 <?php
 /**
- * @category    SchumacherFM_Markdown
+ * @category    SchumacherFM_Pace
  * @package     Observer
  * @author      Cyrill at Schumacher dot fm / @SchumacherFM
  * @copyright   Copyright (c)
+ * @license     The MIT License (MIT)
  */
 class SchumacherFM_Pace_Model_Observer
 {
@@ -33,7 +34,7 @@ class SchumacherFM_Pace_Model_Observer
     protected function _getCss()
     {
         return '<style type="text/css">' .
-        $this->_getFile('themes/pace-theme-corner-indicator.css')
+        $this->_getFile('themes/' . Mage::helper('magepace')->getThemeFileName())
         . '</style>';
     }
 

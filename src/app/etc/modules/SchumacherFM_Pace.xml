@@ -1,4 +1,13 @@
 <?xml version="1.0"?>
+<!--
+/**
+ * @category    SchumacherFM_Pace
+ * @package     Helper
+ * @author      Cyrill at Schumacher dot fm / @SchumacherFM
+ * @copyright   Copyright (c)
+ * @license     The MIT License (MIT)
+ */
+-->
 <config>
     <modules>
         <SchumacherFM_Pace>

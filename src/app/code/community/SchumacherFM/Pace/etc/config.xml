@@ -1,8 +1,13 @@
 <?xml version="1.0"?>
-<!--* @category    SchumacherFM_Pace-->
-<!--* @package     etc-->
-<!--* @author      Cyrill at Schumacher dot fm / @SchumacherFM-->
-<!--* @copyright   Copyright (c)-->
+<!--
+/**
+ * @category    SchumacherFM_Pace
+ * @package     Helper
+ * @author      Cyrill at Schumacher dot fm / @SchumacherFM
+ * @copyright   Copyright (c)
+ * @license     The MIT License (MIT)
+ */
+-->
 <config>
     <modules>
         <SchumacherFM_Pace>
@@ -16,6 +21,11 @@
                 <class>SchumacherFM_Pace_Model</class>
             </magepace>
         </models>
+        <helpers>
+            <magepace>
+                <class>SchumacherFM_Pace_Helper</class>
+            </magepace>
+        </helpers>
     </global>
     <adminhtml>
         <events>
@@ -30,4 +40,11 @@
         </events>
     </adminhtml>
 
+    <default>
+        <system>
+            <magepace>
+                <pace_theme>pace-theme-flat-top.css</pace_theme>
+            </magepace>
+        </system>
+    </default>
 </config>
