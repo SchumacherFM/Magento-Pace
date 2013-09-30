@@ -11,8 +11,34 @@ Based on [https://github.com/HubSpot/pace](https://github.com/HubSpot/pace)
 Theme is configurable in the backend section System -> Configuration -> Advanced
 -> System -> Pace.
 
+
+Compatibility
+-------------
+
+- Magento >= 1.5
+- php >= 5.2.0
+
+There is the possibility that this extension may work with pre-1.5 Magento versions.
+
+Support / Contribution
+----------------------
+
+Report a bug using the issue tracker or send us a pull request.
+
+Instead of forking I can add you as a Collaborator IF you really intend to develop on this module. Just ask :-)
+
+I am using that model: [A successful Git branching model](http://nvie.com/posts/a-successful-git-branching-model/)
+
+
+History
+-------
+
+#### 0.1.0
+
+- Initial release
+
 License
-=======
+-------
 
 The MIT License (MIT)
 
@@ -34,3 +60,12 @@ FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR
 COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER
 IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN
 CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+
+Author
+------
+
+[Cyrill Schumacher](https://github.com/SchumacherFM)
+
+[My pgp public key](http://www.schumacher.fm/cyrill.asc)
+
+Made in Sydney, Australia :-)
