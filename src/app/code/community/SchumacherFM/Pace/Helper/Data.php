@@ -8,9 +8,19 @@
  */
 class SchumacherFM_Pace_Helper_Data extends Mage_Core_Helper_Abstract
 {
+    /**
+     * @return string
+     */
     public function getThemeFileName()
     {
         return Mage::getStoreConfig('system/magepace/pace_theme');
+    }
 
+    /**
+     * @return string
+     */
+    public function getCustomCSS()
+    {
+        return (string)Mage::getStoreConfig('system/magepace/custom_css');
     }
 }

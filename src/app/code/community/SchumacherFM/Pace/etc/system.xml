@@ -29,6 +29,16 @@
                             <show_in_website>1</show_in_website>
                             <show_in_store>1</show_in_store>
                         </pace_theme>
+                        <custom_css translate="label">
+                            <label>Custom CSS</label>
+                            <frontend_type>textarea</frontend_type>
+                            <sort_order>30</sort_order>
+                            <show_in_default>1</show_in_default>
+                            <show_in_website>1</show_in_website>
+                            <show_in_store>1</show_in_store>
+                            <comment>With this custom CSS you can modify the default pace themes.
+                            E.g.: for each store view a different color.</comment>
+                        </custom_css>
                     </fields>
                 </magepace>
             </groups>
