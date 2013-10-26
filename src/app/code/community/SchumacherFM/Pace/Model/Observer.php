@@ -31,13 +31,20 @@ class SchumacherFM_Pace_Model_Observer
         );
     }
 
+    /**
+     * @return string
+     */
     protected function _getCss()
     {
         return '<style type="text/css">' .
-        $this->_getFile('themes/' . Mage::helper('magepace')->getThemeFileName())
+        $this->_getFile('themes/' . Mage::helper('magepace')->getThemeFileName()) .
+        Mage::helper('magepace')->getCustomCSS()
         . '</style>';
     }
 
+    /**
+     * @return string
+     */
     protected function _getJs()
     {
         return '<script type="text/javascript">' .
@@ -45,6 +52,11 @@ class SchumacherFM_Pace_Model_Observer
         . '</script>';
     }
 
+    /**
+     * @param string $file
+     *
+     * @return string
+     */
     protected function _getFile($file)
     {
         $path = Mage::getBaseDir(Mage_Core_Model_Store::URL_TYPE_SKIN) . DS . 'adminhtml' . DS . 'default' . DS . 'default' . DS . 'pace' . DS;

@@ -29,9 +29,15 @@ Instead of forking I can add you as a Collaborator IF you really intend to devel
 
 I am using that model: [A successful Git branching model](http://nvie.com/posts/a-successful-git-branching-model/)
 
+For versioning have a look at [Semantic Versioning 2.0.0](http://semver.org/)
 
 History
 -------
+
+#### 0.1.1
+
+- Update pace.js and themes
+- Add custom css in backend
 
 #### 0.1.0
 
