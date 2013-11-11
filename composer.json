@@ -3,7 +3,6 @@
     "description": "Magento Pace - Automatic page load progress bar for the backend.",
     "license": ["OSL-3.0"],
     "require": {
-        "php": ">=5.3.0"
     },
     "minimum-stability": "dev"
 }
