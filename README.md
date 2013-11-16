@@ -11,6 +11,10 @@ Based on [https://github.com/HubSpot/pace](https://github.com/HubSpot/pace)
 Theme is configurable in the backend section System -> Configuration -> Advanced
 -> System -> Pace.
 
+Todo
+----
+
+Pace on the frontend? Open an issue and vote for it.
 
 Compatibility
 -------------
@@ -33,6 +37,11 @@ For versioning have a look at [Semantic Versioning 2.0.0](http://semver.org/)
 
 History
 -------
+
+#### 0.2.0
+
+- Update pace.js to 0.4.15
+- Add more pace themes
 
 #### 0.1.1
 

@@ -1,5 +1,5 @@
 {
-    "name": "schumacherfm/magento-pace",
+    "name": "SchumacherFM/Magento-Pace",
     "description": "Magento Pace - Automatic page load progress bar for the backend.",
     "license": ["OSL-3.0"],
     "require":{
