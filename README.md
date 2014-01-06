@@ -11,6 +11,8 @@ Based on [https://github.com/HubSpot/pace](https://github.com/HubSpot/pace)
 Theme is configurable in the backend section System -> Configuration -> Advanced
 -> System -> Pace.
 
+Donation: [http://www.seashepherd.org/](http://www.seashepherd.org/)
+
 Todo
 ----
 
@@ -84,3 +86,5 @@ Author
 [My pgp public key](http://www.schumacher.fm/cyrill.asc)
 
 Made in Sydney, Australia :-)
+
+If you consider a donation please contribute to: [http://www.seashepherd.org/](http://www.seashepherd.org/)
