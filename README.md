@@ -43,6 +43,7 @@ History
 #### 0.4.0
 
 - Update pace.js to 0.5.1
+- Added caching of pace js and css for faster loading
 
 #### 0.3.0
 

@@ -13,7 +13,7 @@
         <system>
             <groups>
                 <magepace translate="label">
-                    <label>Pace - Automatic page load progress bar for the backend</label>
+                    <label>Pace - Automatic page load progress bar for the backend [SchumacherFM Module]</label>
                     <frontend_type>text</frontend_type>
                     <sort_order>1000</sort_order>
                     <show_in_default>1</show_in_default>
