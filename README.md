@@ -40,6 +40,10 @@ For versioning have a look at [Semantic Versioning 2.0.0](http://semver.org/)
 History
 -------
 
+#### 0.4.0
+
+- Update pace.js to 0.5.1
+
 #### 0.3.0
 
 - Update pace.js to 0.4.17
