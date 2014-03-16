@@ -1,5 +1,4 @@
-<?xml version="1.0"?>
-<!--
+<?xml version="1.0"?><!--
 /**
  * @category    SchumacherFM_Pace
  * @package     Helper
@@ -40,6 +39,19 @@
         </events>
     </adminhtml>
 
+    <frontend>
+        <events>
+            <core_block_abstract_to_html_after>
+                <observers>
+                    <schumacherfm_pace>
+                        <class>magepace/observer</class>
+                        <method>injectPace</method>
+                    </schumacherfm_pace>
+                </observers>
+            </core_block_abstract_to_html_after>
+        </events>
+
+    </frontend>
     <default>
         <system>
             <magepace>

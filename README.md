@@ -43,7 +43,9 @@ History
 #### 0.4.0
 
 - Update pace.js to 0.5.1
-- Added caching of pace js and css for faster loading
+- Added caching of pace js and css for faster loading [Cache Tag is: `LAYOUT_GENERAL_CACHE_TAG`]
+- Moved files to a shared place for FE and BE
+- Enabled pace.js also on the frontend!
 
 #### 0.3.0
 
