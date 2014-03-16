@@ -1,7 +1,7 @@
 Magento-Pace
 ============
 
-Magento Pace - Automatic page load progress bar for the backend.
+Magento Pace - Automatic page load progress bar for the backend and frontend.
 
 Pace will automatically monitor your ajax requests, event loop lag, document ready state, and elements on your
 page to decide the progress. On ajax navigation it will begin again!
@@ -12,11 +12,6 @@ Theme is configurable in the backend section System -> Configuration -> Advanced
 -> System -> Pace.
 
 Donation: [http://www.seashepherd.org/](http://www.seashepherd.org/)
-
-Todo
-----
-
-Pace on the frontend? Open an issue and vote for it.
 
 Compatibility
 -------------
@@ -45,7 +40,7 @@ History
 - Update pace.js to 0.5.1
 - Added caching of pace js and css for faster loading [Cache Tag is: `LAYOUT_GENERAL_CACHE_TAG`]
 - Moved files to a shared place for FE and BE
-- Enabled pace.js also on the frontend!
+- Activate pace.js also on the frontend! Must be extra enabled in the backend. Default disabled.
 
 #### 0.3.0
 
