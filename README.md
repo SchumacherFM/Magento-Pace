@@ -11,6 +11,8 @@ Based on [https://github.com/HubSpot/pace](https://github.com/HubSpot/pace)
 Theme is configurable in the backend section System -> Configuration -> Advanced
 -> System -> Pace.
 
+Donation: [http://www.seashepherd.org/](http://www.seashepherd.org/)
+
 Todo
 ----
 
@@ -37,6 +39,18 @@ For versioning have a look at [Semantic Versioning 2.0.0](http://semver.org/)
 
 History
 -------
+
+#### 0.4.0
+
+- Update pace.js to 0.5.1
+- Added caching of pace js and css for faster loading [Cache Tag is: `LAYOUT_GENERAL_CACHE_TAG`]
+- Moved files to a shared place for FE and BE
+- Enabled pace.js also on the frontend!
+
+#### 0.3.0
+
+- Update pace.js to 0.4.17
+- Add more pace themes
 
 #### 0.2.0
 
@@ -84,3 +98,5 @@ Author
 [My pgp public key](http://www.schumacher.fm/cyrill.asc)
 
 Made in Sydney, Australia :-)
+
+If you consider a donation please contribute to: [http://www.seashepherd.org/](http://www.seashepherd.org/)

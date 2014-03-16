@@ -1,5 +1,4 @@
-<?xml version="1.0"?>
-<!--
+<?xml version="1.0"?><!--
 /**
  * @category    SchumacherFM_Pace
  * @package     Helper
@@ -13,32 +12,68 @@
         <system>
             <groups>
                 <magepace translate="label">
-                    <label>Pace - Automatic page load progress bar for the backend</label>
+                    <label>Pace - Automatic page load progress bar for the backend [SchumacherFM Module]</label>
                     <frontend_type>text</frontend_type>
                     <sort_order>1000</sort_order>
                     <show_in_default>1</show_in_default>
                     <show_in_website>1</show_in_website>
                     <show_in_store>1</show_in_store>
                     <fields>
-                        <pace_theme translate="label">
-                            <label>Theme</label>
+                        <backend_pace_theme translate="label">
+                            <label>Backend Theme</label>
                             <frontend_type>select</frontend_type>
                             <source_model>magepace/config_source_themefiles</source_model>
                             <sort_order>20</sort_order>
                             <show_in_default>1</show_in_default>
                             <show_in_website>1</show_in_website>
                             <show_in_store>1</show_in_store>
-                        </pace_theme>
-                        <custom_css translate="label">
-                            <label>Custom CSS</label>
+                        </backend_pace_theme>
+                        <backend_custom_css translate="label">
+                            <label>Backend Custom CSS</label>
                             <frontend_type>textarea</frontend_type>
                             <sort_order>30</sort_order>
                             <show_in_default>1</show_in_default>
                             <show_in_website>1</show_in_website>
                             <show_in_store>1</show_in_store>
                             <comment>With this custom CSS you can modify the default pace themes.
-                            E.g.: for each store view a different color.</comment>
-                        </custom_css>
+                                E.g.: for each store view a different color.
+                            </comment>
+                        </backend_custom_css>
+                        <frontend_enable translate="label">
+                            <label>Enable Frontend</label>
+                            <frontend_type>select</frontend_type>
+                            <source_model>adminhtml/system_config_source_yesno</source_model>
+                            <sort_order>100</sort_order>
+                            <show_in_default>1</show_in_default>
+                            <show_in_website>1</show_in_website>
+                            <show_in_store>1</show_in_store>
+                        </frontend_enable>
+                        <frontend_pace_theme translate="label">
+                            <label>Frontend Theme</label>
+                            <frontend_type>select</frontend_type>
+                            <source_model>magepace/config_source_themefiles</source_model>
+                            <sort_order>120</sort_order>
+                            <show_in_default>1</show_in_default>
+                            <show_in_website>1</show_in_website>
+                            <show_in_store>1</show_in_store>
+                            <depends>
+                                <frontend_enable>1</frontend_enable>
+                            </depends>
+                        </frontend_pace_theme>
+                        <frontend_custom_css translate="label">
+                            <label>Frontend Custom CSS</label>
+                            <frontend_type>textarea</frontend_type>
+                            <sort_order>130</sort_order>
+                            <show_in_default>1</show_in_default>
+                            <show_in_website>1</show_in_website>
+                            <show_in_store>1</show_in_store>
+                            <comment>With this custom CSS you can modify the default pace themes.
+                                E.g.: for each store view a different color.
+                            </comment>
+                            <depends>
+                                <frontend_enable>1</frontend_enable>
+                            </depends>
+                        </frontend_custom_css>
                     </fields>
                 </magepace>
             </groups>

@@ -1,4 +1,5 @@
 <?php
+
 /**
  * @category    SchumacherFM_Pace
  * @package     Model
@@ -16,8 +17,8 @@ class SchumacherFM_Pace_Model_Config_Source_ThemeFiles
      */
     public function toOptionArray()
     {
-        $readDir = Mage::getBaseDir(Mage_Core_Model_Store::URL_TYPE_SKIN) . DS .
-            'adminhtml' . DS . 'default' . DS . 'default' . DS . 'pace' . DS . 'themes' . DS;
+        $readDir = Mage::getBaseDir() . DS . Mage_Core_Model_Store::URL_TYPE_JS . DS .
+            'schumacherfm' . DS . 'pace' . DS . 'themes' . DS;
 
         $files = glob($readDir . '*.css');
 

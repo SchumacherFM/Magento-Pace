@@ -1,4 +1,5 @@
 <?php
+
 /**
  * @category    SchumacherFM_Pace
  * @package     Helper
@@ -9,18 +10,34 @@
 class SchumacherFM_Pace_Helper_Data extends Mage_Core_Helper_Abstract
 {
     /**
-     * @return string
+     * @param string $type
+     * @param null   $storeId
+     *
+     * @return mixed
      */
-    public function getThemeFileName()
+    public function getThemeFileName($type = 'backend', $storeId = null)
     {
-        return Mage::getStoreConfig('system/magepace/pace_theme');
+        return Mage::getStoreConfig('system/magepace/' . $type . '_pace_theme', $storeId);
     }
 
     /**
+     * @param string $type
+     * @param null   $storeId
+     *
      * @return string
      */
-    public function getCustomCSS()
+    public function getCustomCSS($type = 'backend', $storeId = null)
     {
-        return (string)Mage::getStoreConfig('system/magepace/custom_css');
+        return (string)Mage::getStoreConfig('system/magepace/' . $type . '_custom_css', $storeId);
+    }
+
+    /**
+     * @param null $storeId
+     *
+     * @return bool
+     */
+    public function isFrontendEnabled($storeId = null)
+    {
+        return Mage::getStoreConfigFlag('system/magepace/frontend_enable', $storeId);
     }
 }
