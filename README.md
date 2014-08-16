@@ -8,6 +8,8 @@ page to decide the progress. On ajax navigation it will begin again!
 
 Based on [https://github.com/HubSpot/pace](https://github.com/HubSpot/pace)
 
+Demo [http://github.hubspot.com/pace/docs/welcome/](http://github.hubspot.com/pace/docs/welcome/)
+
 Theme is configurable in the backend section System -> Configuration -> Advanced -> System -> Pace.
 
 Compatibility
