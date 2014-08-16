@@ -57,8 +57,16 @@ class SchumacherFM_Pace_Model_Observer
     protected function _getPaceHtml()
     {
         /** @var Varien_Cache_Core $cache */
-        $cache    = Mage::app()->getCache();
-        $cacheKey = Mage::app()->getStore()->getId() . '_pace_js_' . $this->_type . '_' . Mage::helper('magepace')->getThemeFileName();
+        $cache = Mage::app()->getCache();
+        $key   = array(
+            Mage::app()->getStore()->getId(),
+            'pace_js',
+            $this->_type,
+            Mage::helper('magepace')->getThemeColor(),
+            Mage::helper('magepace')->getThemeFileName(),
+        );
+
+        $cacheKey = implode('_', $key);
         $pace     = $cache->load($cacheKey);
         if (true === empty($pace)) {
             $pace = $this->_getCss() . $this->_getJs();
@@ -72,8 +80,11 @@ class SchumacherFM_Pace_Model_Observer
      */
     protected function _getCss()
     {
+        $color = Mage::helper('magepace')->getThemeColor();
+        $color = true === empty($color) ? '' : $color . '/';
+
         return '<style type="text/css">' .
-        $this->_getFile('themes/' . Mage::helper('magepace')->getThemeFileName($this->_type)) .
+        $this->_getFile('themes/' . $color . Mage::helper('magepace')->getThemeFileName($this->_type)) .
         Mage::helper('magepace')->getCustomCSS($this->_type)
         . '</style>';
     }

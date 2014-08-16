@@ -8,8 +8,7 @@ page to decide the progress. On ajax navigation it will begin again!
 
 Based on [https://github.com/HubSpot/pace](https://github.com/HubSpot/pace)
 
-Theme is configurable in the backend section System -> Configuration -> Advanced
--> System -> Pace.
+Theme is configurable in the backend section System -> Configuration -> Advanced -> System -> Pace.
 
 Compatibility
 -------------
@@ -32,6 +31,11 @@ For versioning have a look at [Semantic Versioning 2.0.0](http://semver.org/)
 
 History
 -------
+
+#### 0.5.0
+
+- Update pace.js to 0.5.6
+- Added 10 different new color schemes; configurable in the backend
 
 #### 0.4.0
 

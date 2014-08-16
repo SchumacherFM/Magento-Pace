@@ -21,6 +21,16 @@ class SchumacherFM_Pace_Helper_Data extends Mage_Core_Helper_Abstract
     }
 
     /**
+     * @param null $storeId
+     *
+     * @return mixed
+     */
+    public function getThemeColor($storeId = null)
+    {
+        return Mage::getStoreConfig('system/magepace/backend_pace_color', $storeId);
+    }
+
+    /**
      * @param string $type
      * @param null   $storeId
      *
