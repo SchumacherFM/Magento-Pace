@@ -11,8 +11,6 @@ Based on [https://github.com/HubSpot/pace](https://github.com/HubSpot/pace)
 Theme is configurable in the backend section System -> Configuration -> Advanced
 -> System -> Pace.
 
-Donation: [http://www.seashepherd.org/](http://www.seashepherd.org/)
-
 Compatibility
 -------------
 
