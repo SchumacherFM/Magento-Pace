@@ -34,6 +34,11 @@ For versioning have a look at [Semantic Versioning 2.0.0](http://semver.org/)
 History
 -------
 
+#### 0.6.0
+
+- Update pace.js to 1.0.2
+- Major updates of the CSS files for better CSS3 transitions
+
 #### 0.5.0
 
 - Update pace.js to 0.5.6
@@ -92,10 +97,6 @@ CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 Author
 ------
 
-[Cyrill Schumacher](https://github.com/SchumacherFM)
+[Cyrill Schumacher](http://cyrillschumacher.com)
 
 [My pgp public key](http://www.schumacher.fm/cyrill.asc)
-
-Made in Sydney, Australia :-)
-
-If you consider a donation please contribute to: [http://www.seashepherd.org/](http://www.seashepherd.org/)
