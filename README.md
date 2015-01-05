@@ -20,6 +20,8 @@ Compatibility
 
 There is the possibility that this extension may work with pre-1.5 Magento versions.
 
+For Magento2 please use [https://github.com/SchumacherFM/Magento2-Pace](https://github.com/SchumacherFM/Magento2-Pace)
+
 Support / Contribution
 ----------------------
 
